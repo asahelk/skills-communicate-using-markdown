@@ -29,3 +29,24 @@
 
 
 Short and meaningful commit message, I only added headers to this .md file
+
+
+```kotlin
+class HTML {
+  fun body() {
+    println("Executing body...")
+  }
+}
+
+fun html(init: HTML.() -> Unit): HTML{
+  val html = HTML()
+  html.init()
+  return html
+}
+
+fun main(){
+  html {
+    body()
+  }
+}
+```
