@@ -50,3 +50,9 @@ fun main(){
   }
 }
 ```
+
+
+- [ ] Turn on GitHub Page
+- [ ] Outline my portfolio
+- [ ] Introduce myself to the world
+- [ ] Take over the world
